@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Local provider store — contains API keys, never commit it
+provider-manager.json
+provider-manager.json.tmp
+provider-manager.example.local.json
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Logs and caches
+*.log
+npm-debug.log*
+.npm/
+.ds_store
+Thumbs.db
+
+# Build artifacts / editor state
+.DS_Store
+.idea/
+.vscode/
+*.tmp

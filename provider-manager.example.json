@@ -1,0 +1,14 @@
+{
+  "providers": {
+    "example": {
+      "name": "Example Provider",
+      "baseURL": "https://api.example.com/v1",
+      "apiKey": "sk-replace-with-your-key",
+      "models": ["example-chat", "example-reasoning"],
+      "catalog": {
+        "example-chat": "Example Chat",
+        "example-reasoning": "Example Reasoning"
+      }
+    }
+  }
+}
